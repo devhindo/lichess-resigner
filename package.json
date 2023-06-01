@@ -1,7 +1,7 @@
 {
-  "name": "chrome-extension-template-with-typescript",
+  "name": "lichess-resigner",
   "version": "1.0.0",
-  "description": "",
+  "description": "never let the time run out again.",
   "main": "index.js",
   "type": "module",
   "scripts": {

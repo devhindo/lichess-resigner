@@ -1,11 +1,11 @@
 {
     "manifest_version": 3,
-    "name": "chrome extension",
+    "name": "lichess-resigner",
     "version": "0.1.0",
     "action": {
         "default_popup": "src/index.html"
     },
-    "description": "your chrome extension description",
+    "description": "never let the time run out again.",
     "icons": {
         "16": "assets/icon.png",
         "32": "assets/icon.png",
