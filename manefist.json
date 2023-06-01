@@ -1,0 +1,31 @@
+{
+    "manifest_version": 3,
+    "name": "doodle",
+    "version": "0.1.0",
+    "action": {
+        "default_popup": "src/index.html"
+    },
+    "description": "your chrome extension description",
+    "icons": {
+        "16": "assets/icon.png",
+        "32": "assets/icon.png",
+        "48": "assets/icon.png",
+        "128": "assets/icon.png"
+    },
+    "options_page": "src/options.html",
+    "content_scripts": [
+        {
+          "matches": ["<all_urls>"],
+          "js": ["dist/contentscript.js"]
+        }
+    ],
+    "background": {
+        "service_worker": "dist/background.js"
+    },
+    "permissions": [
+        "activeTab",
+        "scripting",
+        "tabs",
+        "storage"
+    ]
+}

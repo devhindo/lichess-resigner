@@ -1,0 +1,30 @@
+{
+  "name": "chrome-extension-template-with-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devhindo/chrome-extension-template-with-typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devhindo/chrome-extension-template-with-typescript/issues"
+  },
+  "homepage": "https://github.com/devhindo/chrome-extension-template-with-typescript#readme",
+  "devDependencies": {
+    "@types/chrome": "^0.0.231",
+    "@types/node": "^18.15.11",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}
