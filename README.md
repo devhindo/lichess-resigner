@@ -14,3 +14,5 @@
 ## Optional features
 
 - the `docs` folder. Just for documentation purposes. You can delete it if you don't need it.
+
+## *Contributing is welcome*
