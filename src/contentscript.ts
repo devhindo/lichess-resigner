@@ -1,0 +1,1 @@
+// code that runs in the current opened tab
